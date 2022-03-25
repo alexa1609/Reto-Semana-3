@@ -1,0 +1,38 @@
+.primera-fila {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.segunda-fila {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item1 {
+    width: 6em;
+    height: 7em;
+    font-size: 3em;
+    background-color: #06161d ;
+    color: rgba(37, 142, 184, 0.986)
+}
+
+.item2 {
+   width: 5em;
+   height: 5em;
+   font-size: 2em;
+   background-color: rgb(122, 189, 218); 
+   color: #06161d;
+}
+
+.item1, .item2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    font-family: calibri;
+}
+
+
